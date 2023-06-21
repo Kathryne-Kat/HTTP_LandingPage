@@ -301,7 +301,6 @@ address {
     padding-left: 5px;
     padding-right: 5px;
     font-size: 20px;
-    line-height: 1.3;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -380,8 +379,8 @@ address {
   .button-hero {
     display: block;
     width: 320px;
-    height: 50px;
-    font-size: 18px;
+    height: 60px;
+    font-size: 20px;
     margin: 0 auto;
   }
 }
@@ -449,6 +448,7 @@ address {
     height: 30px;
     font-size: 12px;
     line-height: 1.2;
+    margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -465,15 +465,17 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  /* align-items: center; */
+  justify-content: center;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .achievement-list,
   .work-list,
   .team-list {
     align-items: center;
     justify-content: center;
   }
-}
+} */
 
 .section-achievement {
   padding-top: 5px;
@@ -583,8 +585,11 @@ address {
   font-weight: 700;
 }
 .work-list-img {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 345px;
+  height: 240px;
+  padding: 20px 5px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
   text-align: center;
   margin: 0 auto;
 }
@@ -618,8 +623,6 @@ address {
 }
 /*------order-------*/
 
-.section {
-}
 .container.order {
   display: flex;
   justify-content: space-between;
@@ -640,22 +643,52 @@ address {
   width: 200px;
 }
 .title-order {
-  max-width: 570px;
+  /* max-width: 570px; */
   font-weight: 700;
   font-size: 48px;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 1200px) {
+  .title-order {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title-order {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title-order {
+    font-size: 22px;
+  }
 }
 .title-order span {
   color: #d23d4a;
 }
 .order-form {
   width: 524px;
-  height: 545px;
+  /* height: 545px; */
   border: 2px solid #d23d4a;
   box-shadow: 4px 10px 20px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  padding: 20px;
 }
 @media screen and (max-width: 768px) {
+  .order-form {
+    margin: 0 auto;
+    width: 460px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
   .order-form {
     width: 100%;
     height: auto;
@@ -666,20 +699,26 @@ address {
   font-weight: 700;
   font-size: 30px;
   line-height: 1.3;
-  padding-top: 20px;
   margin-bottom: 30px;
+  display: block;
 }
 .order-input {
   display: block;
-  margin-bottom: 40px;
   margin: 0 auto;
+  margin-bottom: 10px;
+
   padding-left: 10px;
   width: 430px;
-  height: 70px;
+  height: 60px;
   border: 1px solid #626276;
   border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
+  .order-input {
+    width: 420px;
+  }
+}
+@media screen and (max-width: 480px) {
   .order-input {
     width: 100%;
   }
@@ -703,6 +742,7 @@ address {
 }
 .container.plan {
   display: flex;
+  flex-direction: row-reverse;
 }
 @media screen and (max-width: 768px) {
   .container.plan {
