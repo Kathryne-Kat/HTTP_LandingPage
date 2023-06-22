@@ -318,10 +318,10 @@ address {
   .hero-text {
     max-width: 100%;
 
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.3;
     color: #868695;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
   }
 }
@@ -351,7 +351,7 @@ address {
   display: inline-block;
   /* font-family: Arial, Helvetica, FreeSans, "Liberation Sans", "Nimbus Sans L",
     sans-serif; */
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   color: rgb(245, 245, 245);
   text-shadow: 0 -1px rgba(0, 0, 0, 0.1);
@@ -378,29 +378,28 @@ address {
 @media screen and (max-width: 768px) {
   .button-hero {
     display: block;
-    width: 320px;
+    width: 310px;
     height: 60px;
     font-size: 20px;
     margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 480px) {
   .button-hero {
     width: 310px;
-    height: 60px;
+   
   }
-}
-/* @media screen and (max-width: 768px) {
+} */
+@media screen and (max-width: 768px) {
   .button-hero.btn-hero {
-
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
-  
   }
-} */
+}
 .button-hero:hover {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
@@ -568,12 +567,12 @@ address {
   padding-top: 20px;
   padding-left: 10px;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.2;
 }
 .work-text {
   padding-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   color: var(--accent-text-color2);
   padding-top: 3px;
@@ -581,7 +580,7 @@ address {
 }
 .work-list-item-text {
   padding-left: 10px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2;
 }
 .work-list-item-text-num {
@@ -681,30 +680,35 @@ address {
   color: #d23d4a;
 }
 .order-form {
-  width: 524px;
-  /* height: 545px; */
+  width: 520px;
+  height: auto;
+
   border: 1px solid #d23d4a;
   box-shadow: 4px 10px 20px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .order-form {
     margin: 0 auto;
     width: 460px;
-    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .order-form {
+    margin: 0 auto;
+    width: 430px;
   }
 }
 @media screen and (max-width: 480px) {
   .order-form {
     width: 100%;
-    height: auto;
   }
 }
 .order-title-form {
   text-align: center;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.3;
   margin-bottom: 30px;
   display: block;
@@ -715,12 +719,12 @@ address {
   margin-bottom: 10px;
 
   padding-left: 10px;
-  width: 430px;
+  width: 100%;
   height: 60px;
   border: 1px solid #626276;
   border-radius: 10px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .order-input {
     width: 420px;
   }
@@ -729,14 +733,14 @@ address {
   .order-input {
     width: 100%;
   }
-}
+} */
 .order-btn {
   margin-bottom: 30px;
   display: block;
   margin-bottom: 40px;
   margin: 0 auto;
   padding: 15px 32px;
-  max-width: 430px;
+  max-width: 100%;
 }
 @media screen and (max-width: 768px) {
   .order-btn {
@@ -752,7 +756,7 @@ address {
   flex-direction: row-reverse;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
   .container.plan {
     display: block;
     flex-wrap: wrap;
@@ -760,6 +764,11 @@ address {
 }
 .plan-title-container {
   max-width: 570px;
+}
+@media screen and (max-width: 1080px) {
+  .plan-title-container {
+    max-width: 100%;
+  }
 }
 .section-title {
 }
@@ -788,11 +797,11 @@ address {
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .plan-title {
     font-size: 30px;
   }
-}
+} */
 
 .plan-title span {
   color: var(--accent-text-color);
@@ -804,7 +813,7 @@ address {
 }
 @media screen and (max-width: 768px) {
   .plan-text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.3;
 
     margin-bottom: 30px;
@@ -988,7 +997,7 @@ address {
     width: 450px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .reviews-circle-img {
     display: none;
   }
@@ -1086,7 +1095,7 @@ address {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.3;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 1200px) {
   .end-title {
@@ -1098,17 +1107,17 @@ address {
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
-
+    margin-bottom: 10px;
     font-size: 30px;
-    margin-bottom: 20px;
+
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .end-title {
     font-size: 30px;
   }
-}
+} */
 .end-text {
   font-size: 16px;
   line-height: 1.3;
@@ -1117,76 +1126,11 @@ address {
 }
 @media screen and (max-width: 768px) {
   .end-text {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .btn-end {
 }
-/*-----team-----*/
-/* .section.team {
-  margin-bottom: 0;
-  background-color: var(--accent-color2);
-}
-.element.team {
-  flex-basis: calc((100% - 90px) / 4);
-}
-.team-text {
-  padding-top: 30px;
-  margin-bottom: 16px;
-}
-.element.team {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  align-items: center;
-}
-.name {
-  margin-bottom: 10px;
-  color: var(--title-text-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-}
-
-.team-list .profession {
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-}
-.social-networks.list {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 30px;
-}
-.social-networks-item {
-  flex-basis: calc((100% - 30px) / 4);
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: var(--social-networks-icon);
-  transition: background-color var(--time) var(--cubic),
-    color var(--time) var(--cubic);
-}
-.social-icon {
-  fill: currentColor;
-}
-
-.social-networks-item:hover,
-.social-networks-item:focus {
-  background-color: var(--accent-text-color);
-  color: var(--primary-color);
-  cursor: pointer;
-  transition: background-color var(--time) var(--cubic),
-    color var(--time) var(--cubic);
-} */
 
 /*-----footer-----*/
 
