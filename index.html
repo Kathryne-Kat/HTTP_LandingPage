@@ -64,14 +64,15 @@
               Понад 2000+ компаній довіряють нашому бізнесу. Зверніться за
               допомогою до спеціаліста вже зараз!
             </p>
-            <button
+            <!-- <button
               class="button-hero btn-hero"
               id="fixedButton"
               type="button"
               data-modal-open
             >
               Залишити заявку
-            </button>
+            </button> -->
+            <a class="button-hero btn-hero" href="#orders"> Залишити заявку</a>
           </div>
           <div>
             <!-- <img class="hero-img" src="./images/hero.png" alt="hero" /> -->
@@ -86,25 +87,25 @@
         <div class="container achievement">
           <h2 class="section-title visually-hidden">Досягнення</h2>
           <ul class="achievement-list list">
-            <li class="element achievement">
+            <li class="achievement-item">
               <h3 class="achievement-title">
                 8<span class="achievement-title-accent">+</span>
               </h3>
               <p class="achievement-text">Років на ринку SEO</p>
             </li>
-            <li class="element achievement">
+            <li class="achievement-item">
               <h3 class="achievement-title">
                 5000<span class="achievement-title-accent">+</span>
               </h3>
               <p class="achievement-text">Реалізованих проєктів</p>
             </li>
-            <li class="element achievement">
+            <li class="achievement-item">
               <h3 class="achievement-title">
                 60000<span class="achievement-title-accent">$</span>
               </h3>
               <p class="achievement-text">Рекламні бюджети</p>
             </li>
-            <li class="element achievement">
+            <li class="achievement-item">
               <h3 class="achievement-title">
                 1000<span class="achievement-title-accent">+</span>
               </h3>
@@ -291,7 +292,7 @@
         </div>
       </section>
 
-      <section class="section order">
+      <section class="section order" id="orders">
         <div class="container order">
           <div class="order-title">
             <h3 class="section-title order-name">ЗВ’ЯЖИСЯ З НАМИ</h3>
@@ -328,11 +329,11 @@
       <section class="section plan">
         <div class="container plan">
           <div class="plan-title-container">
-            <p class="section-title plan-name">ЩО МИ РОБИМО</p>
-            <h2 class="plan-title">
+            <h3 class="section-title plan-name">ЩО МИ РОБИМО</h3>
+            <h2 class="section-title-h2 plan-title">
               Наші кроки для примноження ваших <span>прибутків</span>
             </h2>
-            <p class="plan-text">
+            <p class="section-text plan-text">
               Ми надаємо найкращі послуги для вашої компанії, щоб вона ставала
               кращою.
             </p>
@@ -412,42 +413,27 @@
           <ul class="clients-list list">
             <li class="element clients">
               <a class="clients-item" href="#">
-                <img
-                  src="./images/cl8.png"
-                  class="logo1 logo-clients icon-net"
-                />
-              </a>
-            </li>
-            <li class="element clients">
-              <a class="clients-item yellow" href="#">
-                <img
-                  src="./images/cl3.png"
-                  class="logo1 logo-clients icon-net"
-                />
+                <img src="./images/cl8.png" class="logo-clients" />
               </a>
             </li>
             <li class="element clients">
               <a class="clients-item" href="#">
-                <img
-                  src="./images/cl4.png"
-                  class="logo1 logo-clients icon-net"
-                />
-              </a>
-            </li>
-            <li class="element clients">
-              <a class="clients-item yellow" href="#">
-                <img
-                  src="./images/cl5.png"
-                  class="logo1 logo-clients icon-net"
-                />
+                <img src="./images/cl3.png" class="logo-clients" />
               </a>
             </li>
             <li class="element clients">
               <a class="clients-item" href="#">
-                <img
-                  src="./images/cl6.png"
-                  class="logo1 logo-clients icon-net"
-                />
+                <img src="./images/cl4.png" class="logo-clients" />
+              </a>
+            </li>
+            <li class="element clients">
+              <a class="clients-item" href="#">
+                <img src="./images/cl5.png" class="logo-clients" />
+              </a>
+            </li>
+            <li class="element clients">
+              <a class="clients-item" href="#">
+                <img src="./images/cl6.png" class="logo-clients" />
               </a>
             </li>
           </ul>
@@ -456,9 +442,9 @@
 
       <section class="section reviews">
         <div class="container reviews">
-          <p class="section-title reviews-name">ВІДГУКИ НАШИХ КЛІЄНТІВ</p>
+          <h3 class="section-title reviews-name">ВІДГУКИ НАШИХ КЛІЄНТІВ</h3>
 
-          <h2 class="reviews-title">
+          <h2 class="section-title-h2 reviews-title">
             Що говорять наші клієнти <span>про нас</span>
           </h2>
           <div class="reviews-container">
@@ -472,9 +458,6 @@
                   <div class="slider-wrapper">
                     <div class="inner">
                       <article>
-                        <div class="info top-left">
-                          <h3>Слайдер 1</h3>
-                        </div>
                         <div class="reviews-slider-continer">
                           <img
                             class="reviews-item-phone"
@@ -507,9 +490,6 @@
                         </div>
                       </article>
                       <article>
-                        <div class="info bottom-right">
-                          <h3>Слайдер 2</h3>
-                        </div>
                         <div class="reviews-slider-continer">
                           <img
                             class="reviews-item-phone"
@@ -542,9 +522,6 @@
                         </div>
                       </article>
                       <article>
-                        <div class="info bottom-left">
-                          <h3>Слайдер 3</h3>
-                        </div>
                         <div class="reviews-slider-continer">
                           <img
                             class="reviews-item-phone"
@@ -577,9 +554,6 @@
                         </div>
                       </article>
                       <article>
-                        <div class="info top-right">
-                          <h3>Слайдер 4</h3>
-                        </div>
                         <div class="reviews-slider-continer">
                           <img
                             class="reviews-item-phone"
@@ -619,112 +593,78 @@
                     <label for="slide3"></label>
                     <label for="slide4"></label>
                   </div>
-                  <div class="slider-dot-control">
-                    <label for="slide1"></label>
-                    <label for="slide2"></label>
-                    <label for="slide3"></label>
-                    <label for="slide4"></label>
-                  </div>
                 </div>
               </div>
-
-              <!-- <div>
-                <img
-                  class="reviews-item-phone"
-                  src="./images/phone.png"
-                  alt="phone"
-                />
-                <div class="reviews-item-coment">
-                  <div class="reviews-item-avata-cont">
-                    <img
-                      class="reviews-item-avatar"
-                      src="./images/avatar.png"
-                      alt="avatar"
-                    />
-
-                    <div>
-                      <h5 class="reviews-item-title">Микита Фролов</h5>
-                      <p class="reviews-item-title2">vi_shop</p>
-                    </div>
-                  </div>
-                  <p class="reviews-item-text">
-                    Завдяки HTTP наша компанія ефективно просувається в
-                    Instagram. Збільшення впізнаваності, активна аудиторія і
-                    збільшення продажів — це результати, які ми досягли. HTTP -
-                    це потужний інструмент для просування нашого бренду.
-                  </p>
-                </div>
-              </div> -->
             </div>
-            <!-- <div class="reviews-circle"> -->
             <img
               src="./images/Testimonial.png"
               alt=""
               class="reviews-circle-img"
             />
-            <!-- </div> -->
           </div>
         </div>
       </section>
 
       <section class="section end">
         <div class="container end">
-          <h2 class="end-title">Зв’язатися з нами</h2>
-          <p class="end-text">Понад 2000+ компаній довірилися нашому бізнесу</p>
-          <button class="button-hero btn-end" type="button">
+          <h2 class="section-title-h2 end-title">Зв’язатися з нами</h2>
+          <p class="section-text end-text">
+            Понад 2000+ компаній довірилися нашому бізнесу
+          </p>
+          <!-- <button class="button-hero btn-end" type="button">
             Залишити заявку
-          </button>
+          </button> -->
+          <a class="button-hero btn-end" href="#orders"> Залишити заявку</a>
         </div>
       </section>
     </main>
+
     <footer>
       <section class="section-footer">
         <div class="container footer">
-          <div class="address-footer">
-            <address class="address-nav">
-              <ul class="contacts footer list">
-                <li class="logo footer">
-                  <a href="" target="_blank" rel="noopener"
-                    ><img class="logo" src="./images/logo.svg" alt=""
-                  /></a>
-                </li>
-                <li>
-                  <p class="footer-list-title">ЮРИДИЧНА АДРЕСА:</p>
-                  <a
-                    class="link address"
-                    href="https://goo.gl/maps/ozo9N6L2YjkzwhPL8"
-                    rel="noopener, nofollow, noreferrer"
-                    target="_blank"
-                    >49044, м Дніпро, <br />пр. Яворницького, 101
-                  </a>
-                </li>
-                <li>
-                  <p class="footer-list-title">ВИКОНАВЕЦЬ:</p>
-                  <p class="footer-list-http">ТОВ «ХАЙВЕЙ ТУ ТОП»</p>
-                  <a class="link footer" href="tel:+380673423300">
-                    +38 (067) 342 33 00
-                  </a>
-                  <a class="link footer" href="http@highwaytotop.com"
-                    >http@highwaytotop.com</a
-                  >
-                </li>
-                <li>
-                  <p class="footer-list-title">КОРИСНІ ПОСИЛАННЯ:</p>
-                  <a
-                    class="link footer long"
-                    href="https://drive.google.com/file/d/1UwZwmKQ_GzCxhs__7mThtIUzRnvEWHay/view"
-                  >
-                    ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ
-                  </a>
-                  <a
-                    class="link footer"
-                    href="https://ua.highwaytotop.com/files/dogovir_offer_2022.docx"
-                    >ДОГОВІР ОФФЕРТИ</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
+          <address class="address-nav">
+            <ul class="contacts footer list">
+              <li class="logo footer">
+                <a href="" target="_blank" rel="noopener"
+                  ><img class="logo" src="./images/logo.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <p class="footer-list-title">ЮРИДИЧНА АДРЕСА:</p>
+                <a
+                  class="link address"
+                  href="https://goo.gl/maps/ozo9N6L2YjkzwhPL8"
+                  rel="noopener, nofollow, noreferrer"
+                  target="_blank"
+                  >49044, м Дніпро, <br />пр. Яворницького, 101
+                </a>
+              </li>
+              <li>
+                <p class="footer-list-title">ВИКОНАВЕЦЬ:</p>
+                <p class="footer-list-http">ТОВ «ХАЙВЕЙ ТУ ТОП»</p>
+                <a class="link footer" href="tel:+380673423300">
+                  +38 (067) 342 33 00
+                </a>
+                <a class="link footer" href="http@highwaytotop.com"
+                  >http@highwaytotop.com</a
+                >
+              </li>
+              <li>
+                <p class="footer-list-title">КОРИСНІ ПОСИЛАННЯ:</p>
+                <a
+                  class="link footer long"
+                  href="https://drive.google.com/file/d/1UwZwmKQ_GzCxhs__7mThtIUzRnvEWHay/view"
+                >
+                  ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ
+                </a>
+                <a
+                  class="link footer"
+                  href="https://ua.highwaytotop.com/files/dogovir_offer_2022.docx"
+                  >ДОГОВІР ОФФЕРТИ</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
       </section>
       <section class="section-footer">
@@ -825,7 +765,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
-    <script src="./js/buttom.js"></script>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/buttom.js" type="module"></script>
   </body>
 </html>
