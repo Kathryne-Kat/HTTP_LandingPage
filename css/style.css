@@ -707,6 +707,7 @@ address {
   .reviews-item-phone {
     padding-left: 0;
     margin-left: 0;
+    padding-bottom: 10px;
   }
 }
 
