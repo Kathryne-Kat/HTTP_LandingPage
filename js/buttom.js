@@ -1,4 +1,3 @@
-// (() => {
 window.addEventListener("scroll", function () {
   const button = document.getElementById("fixedButton");
   const rect = button.getBoundingClientRect();
@@ -11,4 +10,3 @@ window.addEventListener("scroll", function () {
     button.style.bottom = "0";
   }
 });
-// })();
